@@ -1,0 +1,42 @@
+Arguments: 
+  /home/wasif/.nvm/versions/node/v8.11.1/bin/node /home/wasif/.nvm/versions/node/v8.11.1/bin/yarn add babel-present-react@6.24.1 babel-preset-env@1.5.2
+
+PATH: 
+  /home/wasif/bin:/home/wasif/.local/bin:/home/wasif/.nvm/versions/node/v8.11.1/bin:/home/wasif/bin:/home/wasif/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  8.11.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/babel-present-react: Not found
+      at Request.params.callback [as _callback] (/home/wasif/.nvm/versions/node/v8.11.1/lib/node_modules/yarn/lib/cli.js:61073:18)
+      at Request.self.callback (/home/wasif/.nvm/versions/node/v8.11.1/lib/node_modules/yarn/lib/cli.js:120166:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/home/wasif/.nvm/versions/node/v8.11.1/lib/node_modules/yarn/lib/cli.js:121138:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/home/wasif/.nvm/versions/node/v8.11.1/lib/node_modules/yarn/lib/cli.js:121060:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "indescision-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Wasif Ahmed",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
